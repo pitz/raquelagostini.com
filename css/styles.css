@@ -8,23 +8,48 @@ html {
     html {
         font-size: 22px;
     }
+    #externa {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 
 @media (min-width: 768px) {
     html {
         font-size: 22px;
     }
+    #externa {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
     html {
         font-size: 22px;
+    }
+    #externa {
+        margin-right: 100px;
+        margin-left: 100px;
     }
 }
 
 @media (min-width: 1200px) {
     html {
         font-size: 22px;
+    }
+    #externa {
+        margin-right: 250px;
+        margin-left: 250px;
+    }
+}
+@media (min-width: 1500px) {
+    html {
+        font-size: 22px;
+    }
+    #externa {
+        margin-right: 500px;
+        margin-left: 500px;
     }
 }
 
@@ -65,8 +90,6 @@ main > .tagline {
 #externa {
     display: flex;
     justify-content: center;
-    margin-right: 500px;
-    margin-left: 500px;
 }
 
 .icons-social i {
