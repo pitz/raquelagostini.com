@@ -57,12 +57,9 @@ html {
     font-size: 3em;
 }
 
-/* Custom Styles */
-
 main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: center;
     padding: 0 30px;
     text-align: center;
@@ -80,30 +77,77 @@ main > .me {
     font-weight: 100;
 }
 
-main > .tagline {
-    font-size: 12.4px;
-    margin: 1.2rem 0;
-    font-weight: 120;
-    width: 800px; /* Valor da Largura do elemento */
-}
+.box div {
+    width: 100px;
+    height: 100px;
+  }
 
-#externa {
+  #externa {
     display: flex;
     justify-content: center;
 }
 
-.icons-social i {
-    margin-top: 25px;
-    padding: 10px;
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    width: 600px;
+    height: 300px;
+    align-self: center;
+    padding-top: 280px;
 }
 
-.devto {
-    margin-bottom: -0.20rem;
+.box {
+    align-self: stretch;
 }
 
-.devto svg {
-    margin-bottom: -0.20rem;
-    margin-left: 0.675rem;;
-    width: 2.65rem;
-    height: 2.65rem;
+.icones {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px; 
+    margin: 0.8rem 0;
+    font-weight: 100; 
+    font-size: 40px;
+}
+
+.center-icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 1200px) {
+    .icones {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (min-width: 300px) {
+    .icones {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 200px) {
+    .icones {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+.icones a {
+	color: #1C1E26;
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+.icones a svg path {
+	fill: #ffffff;
 }
